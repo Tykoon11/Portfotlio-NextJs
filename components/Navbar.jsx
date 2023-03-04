@@ -64,7 +64,7 @@ const Navbar = () => {
               />
             </div>
           </div>
-          <h3 className="m-4">Let's build together!</h3>
+          <h3 className="m-4 tracking-wide">Let's build projects together!</h3>
           <hr />
           <div>
             <ul className="m-1">
@@ -98,23 +98,23 @@ const Navbar = () => {
           </div>
 
           <div className="mt-20">
-            <h3 className=" m-4 uppercase ">Let's connect</h3>
+            <h3 className=" m-4 uppercase tracking-widest">Let's connect</h3>
             <div className="flex justify-between mx-4 ">
               <AiFillLinkedin
                 size="28"
-                className=" border-2 border-black shadow-lg shadow-gray-400 cursor-pointer"
+                className=" border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
               />
               <AiFillGithub
                 size="28"
-                className="border-2 border-black shadow-lg shadow-gray-400 cursor-pointer"
+                className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
               />
               <AiFillMail
                 size="28"
-                className="border-2 border-black shadow-lg shadow-gray-400 cursor-pointer"
+                className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
               />
               <BsFillPersonLinesFill
                 size="28"
-                className="border-2 border-black shadow-lg shadow-gray-400 cursor-pointer"
+                className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
               />
             </div>
           </div>
