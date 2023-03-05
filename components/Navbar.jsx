@@ -75,7 +75,7 @@ const Navbar = () => {
           className={
             nav
               ? "fixed left-0 bg-white h-screen w-65 p-5 ease-in duration-500"
-              : "fixed left-[-100%] bg-white h-screen p-5 ease-in duration-500"
+              : "fixed left-[-200%] bg-white h-screen p-5 ease-in duration-500"
           }
         >
           <div className="flex justify-between">
