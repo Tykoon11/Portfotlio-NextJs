@@ -27,27 +27,27 @@ const Navbar = () => {
           <div>
             <ul className="hidden md:flex">
               <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Home
                 </li>
               </Link>
               <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   About
                 </li>
               </Link>
               <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Skills
                 </li>
               </Link>
               <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Project
                 </li>
               </Link>
               <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Contact
                 </li>
               </Link>
@@ -93,27 +93,27 @@ const Navbar = () => {
           <div>
             <ul className="m-1">
               <Link href="/">
-                <li className=" text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Home
                 </li>
               </Link>
               <Link href="/">
-                <li className=" text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   About
                 </li>
               </Link>
               <Link href="/">
-                <li className=" text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Skills
                 </li>
               </Link>
               <Link href="/">
-                <li className=" text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Project
                 </li>
               </Link>
               <Link href="/">
-                <li className=" text-sm uppercase hover:bg-yellow-400 px-4 py-4">
+                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
                   Contact
                 </li>
               </Link>
