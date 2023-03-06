@@ -10,7 +10,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 const Main = () => {
   return (
     <div className="h-screen w-full flex justify-center items-center">
-      <div className="max-w-[1240px] w-[50vw] content-center space-y-3 md:space-y-4 max-h-[70vh]">
+      <div className="max-w-7xl w-[70vw] content-center space-y-3 md:space-y-5 max-h-[70vh]">
         <h3 className="uppercase tracking-widest text-gray-600 text-center">
           Let's build projects together
         </h3>
@@ -21,10 +21,8 @@ const Main = () => {
           A Full-Stack Web Developer
         </h1>
         <p className="text-center text-gray-600">
-          I'm a Full-Stack Developer specialized in building (and occasionally
-          designing) exceptional digital experience. I am efficient in frontend
-          and backend development, fully integrated with amazing functionalities
-          and designed to meet user requirements.
+          I am efficient in building responsive front-end web applications and
+          integrating backend technologies .
         </p>
         <div className="w-full md:px-[15%] flex justify-center">
           <div className="w-full flex justify-between ">
