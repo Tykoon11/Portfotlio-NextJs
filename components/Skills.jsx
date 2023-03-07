@@ -16,12 +16,11 @@ import {
 } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoNodejs } from "react-icons/io";
-import { TbPrompt } from "react-icons/tb";
 import { FaNpm } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center  py-[100px] md:pt-[120px]">
+    <div className="min-h-screen flex justify-center items-center py-[100px] md:pt-[120px]">
       <div className="lg:max-w-7xl px-3">
         <div className="flex justify-center">
           <h2 className="tracking-widest md:text-5xl">My Skills</h2>
