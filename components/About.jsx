@@ -13,7 +13,9 @@ const About = () => {
               <h2 className="text-center tracking-widest md:text-5xl">
                 About Me
               </h2>
+              <br />
               <hr />
+              <br />
               <p className="text-center text-gray-600 ">
                 Hi there! My name is Nobleman, and I am a Full Stack Developer
                 with a passion for creating innovative and user-friendly
@@ -30,7 +32,8 @@ const About = () => {
                 and I'm always on the lookout for new challenges and
                 opportunities to grow my skills.
               </p>
-              <p className="text-center text-gray-700">
+              <br />
+              <p className="text-center underline text-gray-700">
                 <a href="">Check out some of my latest projects</a>
               </p>
             </div>
