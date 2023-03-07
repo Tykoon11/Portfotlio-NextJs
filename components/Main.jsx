@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  AiFillCloseCircle,
   AiFillLinkedin,
   AiFillGithub,
   AiFillMail,
@@ -26,22 +25,10 @@ const Main = () => {
         </p>
         <div className="w-full md:px-[15%] flex justify-center">
           <div className="w-full flex justify-between ">
-            <AiFillLinkedin
-              size="40"
-              className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-            />
-            <AiFillGithub
-              size="40"
-              className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-            />
-            <AiFillMail
-              size="40"
-              className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-            />
-            <BsFillPersonLinesFill
-              size="40"
-              className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-            />
+            <AiFillLinkedin className="border-2 h-12 w-12 fill-[#4071B1] rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+            <AiFillGithub className="border-2 h-12 w-12 fill-[#0E2333] rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+            <AiFillMail className="border-2 h-12 w-12 fill-[#E24134] rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+            <BsFillPersonLinesFill className="border-2 h-12 w-12 fill-[#024F77] rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
           </div>
         </div>
       </div>

@@ -12,6 +12,7 @@ import {
   SiAngular,
   SiTypescript,
   SiJasmine,
+  SiTailwindcss,
 } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { IoLogoNodejs } from "react-icons/io";
@@ -87,16 +88,16 @@ const Skills = () => {
 
           <div className="py-3 px-4 flex flex-col items-center justify-center shadow-xl shadow-gray-400 rounded-xl hover:scale-110 ease-in duration-300">
             <div>
-              <SiGithub className="h-12 w-12 fill-[#CCD6F6] hover:scale-110 ease-in duration-200" />
+              <SiGithub className="h-12 w-12 fill-[#0E2333] hover:scale-110 ease-in duration-200" />
             </div>
             <p>Github</p>
           </div>
 
           <div className="py-3 px-4 flex flex-col items-center justify-center shadow-xl shadow-gray-400 rounded-xl hover:scale-110 ease-in duration-300">
             <div>
-              <TbPrompt className="h-12 w-12 fill-[#CCD6F6] hover:scale-110 ease-in duration-200" />
+              <SiTailwindcss className="h-12 w-12 fill-[#14B8C5] hover:scale-110 ease-in duration-200" />
             </div>
-            <p>Cmd Line</p>
+            <p>Tailwind</p>
           </div>
 
           <div className="py-3 px-4 flex flex-col items-center justify-center shadow-xl shadow-gray-400 rounded-xl hover:scale-110 ease-in duration-300">
