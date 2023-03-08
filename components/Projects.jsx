@@ -12,7 +12,6 @@ const Projects = () => {
         <div className="flex justify-center mb-4 ">
           <div className="text-center">
             <h2>My Projects</h2>
-            <br />
             <hr />
             <br />
             <p>Here are a few of my projects. Click on the links and explore</p>

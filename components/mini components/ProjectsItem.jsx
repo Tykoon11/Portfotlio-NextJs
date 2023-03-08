@@ -11,10 +11,10 @@ const ProjectsItem = ({ title, type, backgroundImage, projectUrl }) => {
         className="rounded-xl group-hover:opacity-10"
       />
       <div className="hidden group-hover:block absolute text-center">
-        <h3 className="text-white tracking-wider text-2xl">{title}</h3>
-        <p className="text-white tracking-wider font-bold">{type}</p>
+        <h3 className="text-white lg:tracking-wider lg:text-2xl">{title}</h3>
+        <p className="text-white lg:tracking-wider lg:font-bold">{type}</p>
         <Link href={projectUrl}>
-          <p className="text-gray-700 tracking-wider underline cursor-pointer rounded-lg bg-white font-bold py-2">
+          <p className="text-gray-700 md:tracking-wider underline cursor-pointer rounded-lg bg-white lg:font-bold py-1 lg:py-2">
             Visit site
           </p>
         </Link>

@@ -4,7 +4,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen w-screen px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px] bg-blue-300">
+    <div className="min-h-screen w-screen px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px]">
       <div>
         <div className="text-center">
           <h2>Contact </h2>
@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-full max-w-md md:max-w-4xl px-1 py-3 md:p-6 mb-6 shadow-xl shadow-gray-400 rounded-xl">
+      <div className="w-full max-w-md md:max-w-4xl px-1 pt-3 md:p-6 mb-6 shadow-xl shadow-gray-400 rounded-xl">
         <form>
           <div className="md:flex justify-between gap-6">
             <div className="md:w-1/2">
@@ -53,6 +53,17 @@ const Contact = () => {
               aria-label="/"
             />
           </div>
+          <div className="">
+            <label>Message</label>
+            <textarea
+              className="border-2 rounded-lg p-1 flex border-gray-300 w-full"
+              rows="8"
+              name="message"
+            ></textarea>
+          </div>
+          <button className="w-full p-3 text-gray-100 mb-2 md:mb-0 mt-4">
+            Send Message
+          </button>
         </form>
       </div>
 
