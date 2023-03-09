@@ -7,7 +7,10 @@ import ProjectsItem from "./mini components/ProjectsItem";
 
 const Projects = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center bg-[] py-[100px] md:pt-[120px]">
+    <div
+      id="projects"
+      className="min-h-screen flex justify-center items-center bg-[] py-[100px] md:pt-[120px]"
+    >
       <div className="lg:max-w-7xl px-6">
         <div className="flex justify-center mb-4 ">
           <div className="text-center">

@@ -6,7 +6,10 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen w-screen px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px] ">
+    <div
+      id="contact"
+      className="min-h-screen w-screen px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px] "
+    >
       <div>
         <div className="text-center">
           <h2>Contact </h2>
