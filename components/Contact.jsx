@@ -1,10 +1,12 @@
 import React from "react";
+import Link from "next/link";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
   return (
-    <div className="min-h-screen w-screen px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px]">
+    <div className="min-h-screen w-screen px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px] ">
       <div>
         <div className="text-center">
           <h2>Contact </h2>
@@ -13,7 +15,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="w-full max-w-md md:max-w-4xl px-1 pt-3 md:p-6 mb-6 shadow-xl shadow-gray-400 rounded-xl">
+      <div className="w-full max-w-md md:max-w-4xl px-1 pt-3 md:p-5 mb-5 shadow-xl shadow-gray-400 rounded-xl">
         <form>
           <div className="md:flex justify-between gap-6">
             <div className="md:w-1/2">
@@ -30,7 +32,7 @@ const Contact = () => {
               <input
                 className="border-2 rounded-lg p-1 w-full border-gray-300"
                 type="text"
-                name="number"
+                name="phone"
                 aria-label="/"
               />
             </div>
@@ -71,6 +73,11 @@ const Contact = () => {
         <div className="flex justify-between">
           <AiFillLinkedin className="rounded-full p-1  h-12 w-12 fill-[#4071B1] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
           <AiFillGithub className="rounded-full p-1 h-12 w-12 fill-[#0E2333] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+          <Link href="/">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
+              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+            </div>
+          </Link>
           <AiFillMail className="rounded-full p-1 h-12 w-12 fill-[#E24134] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
           <BsFillPersonLinesFill className="rounded-full p-1 h-12 w-12 fill-[#024F77] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
         </div>
