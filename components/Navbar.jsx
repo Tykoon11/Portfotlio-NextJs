@@ -111,27 +111,42 @@ const Navbar = () => {
           <div>
             <ul className="m-1">
               <Link href="/">
-                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
+                <li
+                  onClick={() => setNav(!nav)}
+                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                >
                   Home
                 </li>
               </Link>
               <Link href="/#about">
-                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
+                <li
+                  onClick={() => setNav(!nav)}
+                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                >
                   About
                 </li>
               </Link>
               <Link href="/#skills">
-                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
+                <li
+                  onClick={() => setNav(!nav)}
+                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                >
                   Skills
                 </li>
               </Link>
               <Link href="/#projects">
-                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
+                <li
+                  onClick={() => setNav(!nav)}
+                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                >
                   Project
                 </li>
               </Link>
               <Link href="/#contact">
-                <li className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
+                <li
+                  onClick={() => setNav(!nav)}
+                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                >
                   Contact
                 </li>
               </Link>
