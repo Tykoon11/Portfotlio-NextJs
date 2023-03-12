@@ -11,10 +11,10 @@ const Contact = () => {
 
       emailjs
         .sendForm(
-          "YOUR_SERVICE_ID",
-          "YOUR_TEMPLATE_ID",
+          "service_syv07sm",
+          "template_myvxhdz",
           form.current,
-          "YOUR_PUBLIC_KEY"
+          "r5DOtESDTQB1M4HXX"
         )
         .then(
           (result) => {
@@ -39,7 +39,7 @@ const Contact = () => {
       </div>
 
       <div className="w-full max-w-md md:max-w-4xl px-1 pt-3 md:p-5 mb-5 shadow-xl shadow-gray-400 rounded-xl">
-        <form action="" onSubmit="">
+        <form action="" onSubmit={sendEmail}>
           <div className="md:flex justify-between gap-6">
             <div className="md:w-1/2">
               <label>Name</label>
