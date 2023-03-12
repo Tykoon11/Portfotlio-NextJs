@@ -3,8 +3,28 @@ import Link from "next/link";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+    const sendEmail = (e) => {
+      e.preventDefault();
+
+      emailjs
+        .sendForm(
+          "YOUR_SERVICE_ID",
+          "YOUR_TEMPLATE_ID",
+          form.current,
+          "YOUR_PUBLIC_KEY"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
   return (
     <div
       id="contact"
@@ -19,7 +39,7 @@ const Contact = () => {
       </div>
 
       <div className="w-full max-w-md md:max-w-4xl px-1 pt-3 md:p-5 mb-5 shadow-xl shadow-gray-400 rounded-xl">
-        <form>
+        <form action="" onSubmit="">
           <div className="md:flex justify-between gap-6">
             <div className="md:w-1/2">
               <label>Name</label>
@@ -28,6 +48,7 @@ const Contact = () => {
                 type="text"
                 name="name"
                 aria-label="/"
+                placeholder="Your Full Name"
               />
             </div>
             <div className="md:w-1/2">
@@ -37,6 +58,7 @@ const Contact = () => {
                 type="text"
                 name="phone"
                 aria-label="/"
+                placeholder="Your Phone Number"
               />
             </div>
           </div>
@@ -47,6 +69,7 @@ const Contact = () => {
               type="email"
               name="email"
               aria-label="/"
+              placeholder="Your Email Address"
             />
           </div>
           <div className="">
@@ -56,6 +79,7 @@ const Contact = () => {
               type="text"
               name="subject"
               aria-label="/"
+              placeholder="Subject Of Your Message"
             />
           </div>
           <div className="">
@@ -64,6 +88,7 @@ const Contact = () => {
               className="border-2 rounded-lg p-1 flex border-gray-300 w-full"
               rows="8"
               name="message"
+              placeholder="Enter Your Message"
             ></textarea>
           </div>
           <button className="w-full p-3 text-gray-100 mb-2 md:mb-0 mt-4">
