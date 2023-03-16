@@ -7,6 +7,8 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 const Contact = () => {
+  // const [result, setResult] = useState(false);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,14 +23,14 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          alert(result.text);
+          alert(`Thank you for contacting us..`);
+          alert(` Your Message was sent successfully!`);
         },
         (error) => {
-          console.log(error.text);
           alert(error.text);
         }
       );
+    form.current.reset();
   };
   return (
     <div
@@ -96,7 +98,7 @@ const Contact = () => {
               placeholder="Enter Your Message"
             ></textarea>
           </div>
-          <button className="w-full p-3 text-gray-100 mb-2 md:mb-0 mt-4">
+          <button className="w-full p-3 text-gray-100 mb-2 md:mb-0 mt-4 ">
             Send Message
           </button>
         </form>
