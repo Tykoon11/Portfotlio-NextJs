@@ -4,27 +4,32 @@ import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 const Contact = () => {
-    const sendEmail = (e) => {
-      e.preventDefault();
+  const form = useRef();
 
-      emailjs
-        .sendForm(
-          "service_syv07sm",
-          "template_myvxhdz",
-          form.current,
-          "r5DOtESDTQB1M4HXX"
-        )
-        .then(
-          (result) => {
-            console.log(result.text);
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-    };
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_syv07sm",
+        "template_myvxhdz",
+        form.current,
+        "r5DOtESDTQB1M4HXX"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+          alert(error.text);
+        }
+      );
+  };
   return (
     <div
       id="contact"
@@ -39,14 +44,14 @@ const Contact = () => {
       </div>
 
       <div className="w-full max-w-md md:max-w-4xl px-1 pt-3 md:p-5 mb-5 shadow-xl shadow-gray-400 rounded-xl">
-        <form action="" onSubmit={sendEmail}>
+        <form ref={form} action="" onSubmit={sendEmail}>
           <div className="md:flex justify-between gap-6">
             <div className="md:w-1/2">
               <label>Name</label>
               <input
                 className="border-2 rounded-lg p-1 flex border-gray-300 w-full"
                 type="text"
-                name="name"
+                name="from_name"
                 aria-label="/"
                 placeholder="Your Full Name"
               />
@@ -56,7 +61,7 @@ const Contact = () => {
               <input
                 className="border-2 rounded-lg p-1 w-full border-gray-300"
                 type="text"
-                name="phone"
+                name="phone_number"
                 aria-label="/"
                 placeholder="Your Phone Number"
               />
@@ -67,7 +72,7 @@ const Contact = () => {
             <input
               className="border-2 rounded-lg p-1 flex border-gray-300 w-full"
               type="email"
-              name="email"
+              name="user_email"
               aria-label="/"
               placeholder="Your Email Address"
             />
@@ -96,6 +101,8 @@ const Contact = () => {
           </button>
         </form>
       </div>
+
+      <div>{}</div>
 
       <div className="w-full md:max-w-2xl">
         <div className="flex justify-between">
