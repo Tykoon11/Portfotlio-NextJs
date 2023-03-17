@@ -108,15 +108,29 @@ const Contact = () => {
 
       <div className="w-full md:max-w-2xl">
         <div className="flex justify-between">
-          <AiFillLinkedin className="rounded-full p-1  h-12 w-12 fill-[#4071B1] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
-          <AiFillGithub className="rounded-full p-1 h-12 w-12 fill-[#0E2333] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+          <a
+            href="https://www.linkedin.com/in/nobleman-unachukwu-7a53b2222/"
+            target="_blank"
+          >
+            <AiFillLinkedin className="rounded-full p-1  h-12 w-12 fill-[#4071B1] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+          </a>
+          <a href="https://github.com/Tykoon11" target="_blank">
+            <AiFillGithub className="rounded-full p-1 h-12 w-12 fill-[#0E2333] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+          </a>
           <Link href="/">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
               <HiOutlineChevronDoubleUp className="text-[#5651e5] " size={30} />
             </div>
           </Link>
-          <AiFillMail className="rounded-full p-1 h-12 w-12 fill-[#E24134] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
-          <BsFillPersonLinesFill className="rounded-full p-1 h-12 w-12 fill-[#024F77] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+          <a href="mailto:danobzy@gmail.com" target="_blank">
+            <AiFillMail className="rounded-full p-1 h-12 w-12 fill-[#E24134] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1b_Xoq5-co7nWkGivpt_x11T398AU4bu8/view?usp=share_link"
+            target="_blank"
+          >
+            <BsFillPersonLinesFill className="rounded-full p-1 h-12 w-12 fill-[#024F77] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+          </a>
         </div>
       </div>
     </div>

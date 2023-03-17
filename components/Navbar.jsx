@@ -158,22 +158,36 @@ const Navbar = () => {
           <div className="mt-20">
             <h3 className=" m-4 uppercase tracking-widest">Let's connect</h3>
             <div className="flex justify-between mx-4 ">
-              <AiFillLinkedin
-                size="28"
-                className=" border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-              />
-              <AiFillGithub
-                size="28"
-                className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-              />
-              <AiFillMail
-                size="28"
-                className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-              />
-              <BsFillPersonLinesFill
-                size="28"
-                className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
-              />
+              <a
+                href="https://www.linkedin.com/in/nobleman-unachukwu-7a53b2222/"
+                target="_blank"
+              >
+                <AiFillLinkedin
+                  size="28"
+                  className=" border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
+                />
+              </a>
+              <a href="https://github.com/Tykoon11" target="_blank">
+                <AiFillGithub
+                  size="28"
+                  className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
+                />
+              </a>
+              <a href="mailto:danobzy@gmail.com" target="_blank">
+                <AiFillMail
+                  size="28"
+                  className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
+                />
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1b_Xoq5-co7nWkGivpt_x11T398AU4bu8/view?usp=share_link"
+                target="_blank"
+              >
+                <BsFillPersonLinesFill
+                  size="28"
+                  className="border-2 rounded-md border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300"
+                />
+              </a>
             </div>
           </div>
         </div>
