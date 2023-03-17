@@ -98,7 +98,7 @@ const Contact = () => {
               placeholder="Enter Your Message"
             ></textarea>
           </div>
-          <button className="w-full p-3 text-gray-100 mb-2 md:mb-0 mt-4 ">
+          <button className="w-full p-3 text-gray-100 mb-2 md:mb-0 mt-4 bg-[#629cde]">
             Send Message
           </button>
         </form>
@@ -112,7 +112,7 @@ const Contact = () => {
           <AiFillGithub className="rounded-full p-1 h-12 w-12 fill-[#0E2333] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
           <Link href="/">
             <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+              <HiOutlineChevronDoubleUp className="text-[#5651e5] " size={30} />
             </div>
           </Link>
           <AiFillMail className="rounded-full p-1 h-12 w-12 fill-[#E24134] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />

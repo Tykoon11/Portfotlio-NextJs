@@ -8,7 +8,7 @@ const About = () => {
       <hr />
       <div
         id="about"
-        className=" min-h-screen flex justify-center items-center bg-blue-300 pt-[70px] md:pt-[100px]"
+        className=" min-h-screen flex justify-center items-center  bg-[#629cde] md:pt-[100px]"
       >
         <div className="p-6 flex flex-col max-w-lg md:max-w-3xl lg:max-w-7xl lg:flex-row lg:gap-10 ">
           <div className="mb-5 lg:w-1/2 md:text-l lg:text-xl xl:text-2xl md:leading-8 lg:flex lg:items-center">
