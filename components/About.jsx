@@ -25,7 +25,7 @@ const About = () => {
                 applications. I specialize in both front-end and back-end
                 development and have experience working with a wide range of
                 programming languages and frameworks, including JavaScript,
-                Python, React, and Node.js.
+                Python, React, Angular, and Node.js.
               </p>
               <p className="text-center text-gray-600">
                 I freelance for companies and individuals in need of my
