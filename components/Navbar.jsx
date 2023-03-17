@@ -10,6 +10,7 @@ import {
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState, useEffect } from "react";
+import Logo from "../public/assets/logo1.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -40,7 +41,7 @@ const Navbar = () => {
         }
       >
         <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-          <Image src="" alt="/" width="125" height="50" />
+          <Image src={Logo} alt="/" width="60" height="60" />
 
           <div>
             <ul className="hidden md:flex">
@@ -97,12 +98,12 @@ const Navbar = () => {
           }
         >
           <div className="flex justify-between">
-            <Image src="" alt="/" width="125" height="50" />
+            <Image src={Logo} alt="/" width="50" height="50" />
             <div>
               <AiFillCloseCircle
                 onClick={handleNav}
                 size="26"
-                className="rounded-full border-2 border-black shadow-lg shadow-gray-400 cursor-pointer"
+                className="rounded-full border-2 border-black shadow-lg shadow-gray-400 cursor-pointer mt-2"
               />
             </div>
           </div>
