@@ -7,7 +7,7 @@ const ProjectsItem = ({ title, type, backgroundImage, projectUrl }) => {
     <div className="mb-4 md:mb-0 shadow-xl shadow-gray-400 rounded-xl relative group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-300 p-2 bg-white flex justify-center items-center">
       <Image
         src={backgroundImage}
-        alt="laptop"
+        alt="projects"
         className="rounded-xl group-hover:opacity-10"
       />
       <div className="hidden group-hover:block absolute text-center">
