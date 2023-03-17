@@ -20,20 +20,27 @@ const About = () => {
               <hr />
               <br />
               <p className="text-center text-gray-600 ">
-                Hi there! My name is Nobleman, and I am a Full Stack Developer
+                Hi there! My name is Nobleman, and I am a{" "}
+                <span className="text-[#dc4000]">Full Stack Developer</span>{" "}
                 with a passion for creating innovative and user-friendly
                 applications. I specialize in both front-end and back-end
                 development and have experience working with a wide range of
-                programming languages and frameworks, including JavaScript,
-                Python, React, Angular, and Node.js.
+                programming languages and frameworks, including
+                <span className="text-[#EBD41B]"> JavaScript</span>,{" "}
+                <span className="text-[#5ed3f3f9]">React</span>,{" "}
+                <span className="text-[#D2022F]">Angular</span>, and{" "}
+                <span className="text-[#509640]">Node.js</span>.
               </p>
+
               <p className="text-center text-gray-600">
                 I freelance for companies and individuals in need of my
                 expertise and I enjoy using my skills to develop elegant and
                 intuitive web applications that help solve real-world problems.
                 I'm a firm believer in continuous learning and self-improvement,
-                and I'm always on the lookout for new challenges and
-                opportunities to grow my skills.
+                and I'm always on the lookout for new{" "}
+                <span className="text-[#F65C15]">challenges</span> and
+                <span className="text-[#39f976d4]">opportunities</span> to grow
+                my skills.
               </p>
               <br />
               <p className="text-center underline text-gray-700">
