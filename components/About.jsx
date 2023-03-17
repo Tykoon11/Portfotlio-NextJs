@@ -29,7 +29,7 @@ const About = () => {
                 <span className="text-[#EBD41B]"> JavaScript</span>,{" "}
                 <span className="text-[#5ed3f3f9]">React</span>,{" "}
                 <span className="text-[#D2022F]">Angular</span>, and{" "}
-                <span className="text-[#509640]">Node.js</span>.
+                <span className="text-[#79cf65]">Node.js</span>.
               </p>
 
               <p className="text-center text-gray-600">
