@@ -7,7 +7,6 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
 const Contact = () => {
-  // const [result, setResult] = useState(false);
 
   const form = useRef();
 
