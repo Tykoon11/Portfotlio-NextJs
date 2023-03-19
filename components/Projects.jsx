@@ -25,13 +25,13 @@ const Projects = () => {
             title="Movie Trailer App"
             type="React Js"
             backgroundImage={MovieApp}
-            projectUrl="/"
+            projectUrl="https://movietrailerapp.netlify.app"
           />
           <ProjectsItem
             title="Expense Tracker App"
             type="React Js"
             backgroundImage={Expense}
-            projectUrl="/"
+            projectUrl="https://track-expenseapp.netlify.app/"
           />
           <ProjectsItem
             title="Docplanner Replica"
@@ -43,7 +43,7 @@ const Projects = () => {
             title="Resize App"
             type="JavaScript"
             backgroundImage={resize}
-            projectUrl="/"
+            projectUrl="https://top-t-resize-app.onrender.com"
           />
         </div>
       </div>
