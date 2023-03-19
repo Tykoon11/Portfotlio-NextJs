@@ -40,7 +40,7 @@ const Projects = () => {
             projectUrl="/"
           />
           <ProjectsItem
-            title="Shopping Cart"
+            title="Resize App"
             type="JavaScript"
             backgroundImage={resize}
             projectUrl="/"
