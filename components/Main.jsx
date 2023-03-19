@@ -28,19 +28,19 @@ const Main = () => {
               href="https://www.linkedin.com/in/nobleman-unachukwu-7a53b2222/"
               target="_blank"
             >
-              <AiFillLinkedin className="rounded-full p-1 h-14 w-14 fill-[#4071B1] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <AiFillLinkedin className="rounded-full p-1 h-14 w-14 fill-[#4071B1] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
             <a href="https://github.com/Tykoon11" target="_blank">
-              <AiFillGithub className="rounded-full p-1 h-14 w-14 fill-[#0E2333] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <AiFillGithub className="rounded-full p-1 h-14 w-14 fill-[#0E2333] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
             <a href="mailto:danobzy@gmail.com" target="_blank">
-              <AiFillMail className="rounded-full p-1 h-14 w-14 fill-[#E24134] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <AiFillMail className="rounded-full p-1 h-14 w-14 fill-[#E24134] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
             <a
               href="https://drive.google.com/file/d/1b_Xoq5-co7nWkGivpt_x11T398AU4bu8/view?usp=share_link"
               target="_blank"
             >
-              <BsFillPersonLinesFill className="rounded-full p-1 h-14 w-14 fill-[#024F77] border-black shadow-lg shadow-gray-400 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <BsFillPersonLinesFill className="rounded-full p-1 h-14 w-14 fill-[#024F77] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
           </div>
         </div>
