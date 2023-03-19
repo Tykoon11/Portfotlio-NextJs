@@ -2,7 +2,7 @@ import React from "react";
 import MovieApp from "../public/assets/movieapp.png";
 import DocPlanner from "../public/assets/docplanner.png";
 import Expense from "../public/assets/expensetracker.png";
-import cart from "../public/assets/cart.png";
+import resize from "../public/assets/resizeapp.png";
 import ProjectsItem from "./mini components/ProjectsItem";
 
 const Projects = () => {
@@ -42,7 +42,7 @@ const Projects = () => {
           <ProjectsItem
             title="Shopping Cart"
             type="JavaScript"
-            backgroundImage={cart}
+            backgroundImage={resize}
             projectUrl="/"
           />
         </div>
