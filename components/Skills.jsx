@@ -22,7 +22,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="min-h-screen flex justify-center items-center py-[100px] md:pt-[120px]"
+      className="min-h-screen flex justify-center items-center py-[100px] md:pt-[120px] "
     >
       <div className="lg:max-w-7xl px-3">
         <div className="flex justify-center">

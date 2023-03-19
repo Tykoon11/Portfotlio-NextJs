@@ -5,10 +5,9 @@ import Image from "next/image";
 const About = () => {
   return (
     <>
-      <hr />
       <div
         id="about"
-        className=" min-h-screen flex justify-center items-center pt-[100px] bg-[#629cde] md:pt-[100px]"
+        className=" min-h-screen flex justify-center items-center pt-[100px] bg-[#4093f1] md:pt-[100px]"
       >
         <div className="p-6 flex flex-col max-w-lg md:max-w-3xl lg:max-w-7xl lg:flex-row lg:gap-10 ">
           <div className="mb-5 lg:w-1/2 md:text-l lg:text-xl xl:text-2xl md:leading-8 lg:flex lg:items-center">
@@ -49,7 +48,7 @@ const About = () => {
             </div>
           </div>
           <div className="lg:w-1/2 md:flex md:justify-center lg:items-center">
-            <div className="shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300 p-4 bg-white">
+            <div className=" rounded-xl hover:scale-105 ease-in duration-500 p-4 hover:shadow-2xl shadow-gray-900 bg-white bg-opacity-25">
               <Image src={AboutImg} alt="laptop" className="rounded-xl " />
             </div>
           </div>

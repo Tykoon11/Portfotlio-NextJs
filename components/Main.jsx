@@ -4,7 +4,10 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Main = () => {
   return (
-    <div id="home" className="h-screen w-full flex justify-center items-center">
+    <div
+      id="home"
+      className="h-screen w-full flex justify-center items-center bg-gradient-to-t from-[#4093f1] via-[#ECF0F3] to-[#ECF0F3]"
+    >
       <div className="max-w-7xl w-[70vw] content-center space-y-3 md:space-y-5 max-h-[70vh]">
         <h3 className="uppercase tracking-widest text-gray-600 text-center">
           Let's build projects together
