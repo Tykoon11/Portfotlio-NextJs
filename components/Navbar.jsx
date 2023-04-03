@@ -36,49 +36,54 @@ const Navbar = () => {
       <div
         className={
           shadow
-            ? "fixed w-full h-20 shadow-xl z-[2] bg-[#ECF0F3]"
-            : "fixed w-full h-20 z-[2] bg-[#ECF0F3]"
+            ? "fixed w-full h-20 shadow-xl z-[2] bg-[#020404]"
+            : "fixed w-full h-20 z-[2] bg-[#020404]"
         }
       >
-        <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-          <Image className="md:ml-4" src={Logo} alt="/" width="50" height="60" />
+        <div className="flex items-center w-full h-full px-2 2xl:px-16">
+          <Image className="md:ml-6" src={Logo} alt="/" width="35" />
 
-          <div>
-            <ul className="hidden md:flex">
-              <Link href="/">
-                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
-                  Home
-                </li>
-              </Link>
-              <Link href="/#about">
-                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
-                  About
-                </li>
-              </Link>
-              <Link href="/#skills">
-                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
-                  Skills
-                </li>
-              </Link>
-              <Link href="/#projects">
-                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
-                  Project
-                </li>
-              </Link>
-              <Link href="/#contact">
-                <li className="ml-10 text-sm uppercase hover:bg-[#1D92FF] px-4 py-4">
-                  Contact
-                </li>
-              </Link>
-            </ul>
+          <div className="w-full flex justify-end md:flex md:justify-center">
+            <div>
+              <ul className="hidden md:flex">
+                <Link href="/">
+                  <li className="ml-10 text-xs text-[#5b5c61] hover:text-[#eff0f4] uppercase px-1 py-4">
+                    Home
+                  </li>
+                </Link>
+                <Link href="/#about">
+                  <li className="ml-10 text-xs text-[#5b5c61] hover:text-[#eff0f4] uppercase px-1 py-4">
+                    About
+                  </li>
+                </Link>
+                <Link href="/#skills">
+                  <li className="ml-10 text-xs text-[#5b5c61] hover:text-[#eff0f4] uppercase px-1 py-4">
+                    Skills
+                  </li>
+                </Link>
+                <Link href="/#projects">
+                  <li className="ml-10 text-xs text-[#5b5c61] hover:text-[#eff0f4] uppercase px-1 py-4">
+                    Project
+                  </li>
+                </Link>
+              </ul>
 
-            <div className="md:hidden">
-              <GiHamburgerMenu
-                onClick={handleNav}
-                size="25"
-                className=" cursor-pointer"
-              />
+              <div className="md:hidden">
+                <GiHamburgerMenu
+                  onClick={handleNav}
+                  size="25"
+                  className=" cursor-pointer fill-[#eff0f4]"
+                />
+              </div>
             </div>
+          </div>
+
+          <div className="hidden md:block px-2">
+            <Link href="/#contact">
+              <li className="mr-24 text-xs text-[#eff0f4] uppercase px-4 py-2 list-none border-2 border-[#F53062] hover:border-[#eff0f4]">
+                Contact
+              </li>
+            </Link>
           </div>
         </div>
       </div>

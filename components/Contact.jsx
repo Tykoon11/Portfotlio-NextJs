@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen w-screen px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px] "
+      className="min-h-screen w-full px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px] "
     >
       <div>
         <div className="text-center">
