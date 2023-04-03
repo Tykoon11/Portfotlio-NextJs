@@ -9,7 +9,7 @@ const About = () => {
         id="about"
         className=" min-h-screen flex justify-center items-center pt-[100px] bg-black md:pt-[100px]"
       >
-        <div className="p-6 flex flex-col max-w-lg md:max-w-3xl lg:max-w-7xl lg:flex-row lg:gap-10 ">
+        <div className="p-6 flex flex-col max-w-lg md:max-w-3xl lg:max-w-7xl lg:flex-row lg:gap-10 mb-32 lg:mb-64 lg:mt-32">
           <div className="mb-5 lg:mb-0 lg:w-1/2 md:text-l lg:text-xl xl:text-2xl md:leading-8 lg:flex lg:items-center">
             <div className="bg-[#1E2022] p-4 ">
               <h2 className="text-center uppercase tracking-tight font-extrabold md:text-3xl md:text-start text-[#C9CACE]">
