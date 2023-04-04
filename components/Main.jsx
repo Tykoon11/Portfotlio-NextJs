@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="h-[100vh] w-full flex justify-center md:justify-start md:items-end items-center "
+      className="min-h-[100vh] w-full flex justify-center md:justify-start md:items-end items-center "
     >
       <div className="z-[-20]">
         <Image src={mainBg} layout="fill" objectFit="cover" className="" />
