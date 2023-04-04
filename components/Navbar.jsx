@@ -119,7 +119,7 @@ const Navbar = () => {
               <Link href="/">
                 <li
                   onClick={() => setNav(!nav)}
-                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                  className=" text-sm uppercase hover:bg-black hover:text-white px-4 py-4"
                 >
                   Home
                 </li>
@@ -127,7 +127,7 @@ const Navbar = () => {
               <Link href="/#about">
                 <li
                   onClick={() => setNav(!nav)}
-                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                  className=" text-sm uppercase hover:bg-black hover:text-white px-4 py-4"
                 >
                   About
                 </li>
@@ -135,7 +135,7 @@ const Navbar = () => {
               <Link href="/#skills">
                 <li
                   onClick={() => setNav(!nav)}
-                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                  className=" text-sm uppercase hover:bg-black hover:text-white px-4 py-4"
                 >
                   Skills
                 </li>
@@ -143,7 +143,7 @@ const Navbar = () => {
               <Link href="/#projects">
                 <li
                   onClick={() => setNav(!nav)}
-                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                  className=" text-sm uppercase hover:bg-black hover:text-white px-4 py-4"
                 >
                   Project
                 </li>
@@ -151,7 +151,7 @@ const Navbar = () => {
               <Link href="/#contact">
                 <li
                   onClick={() => setNav(!nav)}
-                  className=" text-sm uppercase hover:bg-[#1D92FF] px-4 py-4"
+                  className=" text-sm uppercase hover:bg-black hover:text-white px-4 py-4"
                 >
                   Contact
                 </li>
