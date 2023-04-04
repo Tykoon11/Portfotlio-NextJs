@@ -35,7 +35,7 @@ const Contact = () => {
       id="contact"
       className="min-h-screen w-full px-4 md:px-6 flex flex-col justify-center items-center py-[100px] md:pt-[120px] bg-[#000000]"
     >
-      <div className="md:w-full md:max-w-4xl bg-[#1E2022] pt-3 md:pt-4">
+      <div className="md:w-full md:max-w-4xl md:bg-[#1E2022] pt-3 md:pt-4">
         <div className="text-center md:text-start md:ml-5">
           <h2 className="uppercase tracking-tight font-extrabold md:text-3xl text-[#C9CACE]">
             Contact<span className="text-[#F53062]">.</span>
