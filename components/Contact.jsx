@@ -40,10 +40,10 @@ const Contact = () => {
           <h2 className="uppercase tracking-tight font-extrabold md:text-3xl text-[#C9CACE]">
             Contact<span className="text-[#F53062]">.</span>
           </h2>
-          <p className="text-[#5b5c61] tracking-tight text-lg mt">
+          <p className="text-[#5b5c61] tracking-tight text-lg mt mx-1 md:mx-0">
             I am available for freelance or full-time positions.
           </p>
-          <p className="text-[#5b5c61] tracking-tight text-lg mt">
+          <p className="text-[#5b5c61] tracking-tight text-lg mt mx-1 md:mx-0 mb-1 md:mb-0">
             Contact me and I'll be sure to respond.
           </p>
         </div>

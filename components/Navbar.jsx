@@ -63,7 +63,7 @@ const Navbar = () => {
                 </Link>
                 <Link href="/#projects">
                   <li className="ml-10 text-xs text-[#5b5c61] hover:text-[#eff0f4] uppercase px-1 py-4">
-                    Project
+                    Projects
                   </li>
                 </Link>
               </ul>
@@ -103,16 +103,16 @@ const Navbar = () => {
           }
         >
           <div className="flex justify-between">
-            <Image src={Logo} alt="/" width="50" height="50" />
+            <Image src={Logo} alt="/" width="35" />
             <div>
               <AiFillCloseCircle
                 onClick={handleNav}
                 size="26"
-                className="rounded-full border-2 border-black shadow-lg shadow-gray-400 cursor-pointer mt-2"
+                className="rounded-full border-2 border-black shadow-lg shadow-gray-400 cursor-pointer mt-1"
               />
             </div>
           </div>
-          <h3 className="m-4 tracking-wide">Let's build projects together!</h3>
+          <h3 className="m-4 tracking-tighter uppercase text-sm">Let's build projects together!</h3>
           <hr />
           <div>
             <ul className="m-1">
@@ -145,7 +145,7 @@ const Navbar = () => {
                   onClick={() => setNav(!nav)}
                   className=" text-sm uppercase hover:bg-black hover:text-white px-4 py-4"
                 >
-                  Project
+                  Projects
                 </li>
               </Link>
               <Link href="/#contact">
@@ -161,7 +161,7 @@ const Navbar = () => {
           </div>
 
           <div className="mt-20">
-            <h3 className=" m-4 uppercase tracking-widest">Let's connect</h3>
+            <h3 className=" m-4 uppercase tracking-tight text-center">Let's connect</h3>
             <div className="flex justify-between mx-4 ">
               <a
                 href="https://www.linkedin.com/in/nobleman-unachukwu-7a53b2222/"

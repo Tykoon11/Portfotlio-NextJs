@@ -17,13 +17,13 @@ const Main = () => {
         <h3 className="uppercase tracking-widest text-[#eff0f4] text-center md:text-start">
           Let's build projects together
         </h3>
-        <h1 className="capitalize text-center md:text-start text-[#eff0f4]">
+        <h1 className="uppercase tracking-tight font-extrabold text-3xl text-center md:text-start text-[#eff0f4]">
           Hello, I'm <span className="text-[#eff0f4]">Nobleman</span>
         </h1>
-        <h1 className="capitalize text-center md:text-start text-[#eff0f4]">
-          A Full-Stack Web Developer
+        <h1 className="uppercase tracking-tighter font-extrabold text-center md:text-start text-[#eff0f4]">
+          FullStack Web Developer
         </h1>
-        <p className="text-center md:text-start text-[#eff0f4]">
+        <p className="text-center md:text-start text-[#eff0f4] text-xs">
           I am efficient in building responsive front-end web applications and
           integrating backend technologies.
         </p>
@@ -33,19 +33,19 @@ const Main = () => {
               href="https://www.linkedin.com/in/nobleman-unachukwu-7a53b2222/"
               target="_blank"
             >
-              <AiFillLinkedin className="rounded-full p-1 h-14 w-14 fill-[#C9CACE] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <AiFillLinkedin className="rounded-full p-1 h-12 w-12 fill-[#C9CACE] border-black  cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
             <a href="https://github.com/Tykoon11" target="_blank">
-              <AiFillGithub className="rounded-full p-1 h-14 w-14 fill-[#C9CACE] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <AiFillGithub className="rounded-full p-1 h-12 w-12 fill-[#C9CACE] border-black  cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
             <a href="mailto:danobzy@gmail.com" target="_blank">
-              <AiFillMail className="rounded-full p-1 h-14 w-14 fill-[#C9CACE] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <AiFillMail className="rounded-full p-1 h-12 w-12 fill-[#C9CACE] border-black  cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
             <a
               href="https://drive.google.com/file/d/1b_Xoq5-co7nWkGivpt_x11T398AU4bu8/view?usp=share_link"
               target="_blank"
             >
-              <BsFillPersonLinesFill className="rounded-full p-1 h-14 w-14 fill-[#C9CACE] border-black shadow-lg shadow-gray-700 cursor-pointer hover:scale-125 ease-in duration-300" />
+              <BsFillPersonLinesFill className="rounded-full p-1 h-12 w-12 fill-[#C9CACE] border-black cursor-pointer hover:scale-125 ease-in duration-300" />
             </a>
           </div>
         </div>
